@@ -35,7 +35,8 @@ def news():
             url = "https://newsapi.org/v2/everything"
             params = {
                 "q": text,
-                "sortBy": "publishedAt",
+                "sortBy": "relevancy",
+                "language": 'pt',
                 "pageSize": 10,
                 "apiKey": "40ea1ab64d014d479780b1d50b14ee15"
             }
